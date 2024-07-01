@@ -139,18 +139,6 @@ export default function Contact() {
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
-              {/* <a
-                href="https://bento.me/huyng"
-                className="group flex items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="simple-icons:bento" color="#666" />
-                <div className="relative">
-                  <span>Bento</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a> */}
               <a
                 href="https://github.com/Amit-Ramrakhyani"
                 className="group flex items-center space-x-2"

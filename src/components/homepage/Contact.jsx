@@ -130,7 +130,6 @@ export default function Contact() {
               className="button group mt-10 border duration-200 hover:border-accent-400 hover:bg-transparent"
             >
               <span className="relative">
-                <span className="absolute bottom-2 h-1 w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
                 <span className="group-hover:text-accent-400">
                   Send Message
                 </span>

@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
 import emailjs from 'emailjs-com';
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Contact() {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -176,6 +177,18 @@ export default function Contact() {
                 <Icon icon="mdi:linkedin" color="#666" />
                 <div className="relative">
                   <span>LinkedIn</span>
+                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                </div>
+              </a>
+              <a
+                href="https://x.com/AmitR_0911"
+                className="group group flex w-fit items-center space-x-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaXTwitter color="#666" />
+                <div className="relative">
+                  <span>X</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>

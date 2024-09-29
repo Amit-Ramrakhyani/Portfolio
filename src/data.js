@@ -5,13 +5,14 @@ import cspm from '/src/assets/images/CSPM.webp';
 import emotion from '/src/assets/images/Emotion.webp';
 import finance from '/src/assets/images/Finance.webp';
 import anpr from '/src/assets/images/vehicleTracking.webp';
+import buildify from '/src/assets/images/Buildify2.webp';
 
 const projectsData = [
   {
-    title: 'Automatic License Plate Detection and Recognition System',
-    description: 'Computer Vision / Machine Learning',
-    imageSrc: anpr,
-    link: 'https://github.com/Amit-Ramrakhyani/License-Plate-Recognition'
+    title: 'Buildify - No Code LLM App Builder',
+    description: 'Generative AI / Language Model / Web Development',
+    imageSrc: buildify,
+    link: 'https://github.com/imabhisht/Devshouse-2024'
   },
   {
     title: 'Multilingual Transcription & Translation System',
@@ -36,6 +37,12 @@ const projectsData = [
     description: 'Data Analysis, Machine Learning, Web Development, App Development',
     imageSrc: finance,
     link: 'https://github.com/Amit-Ramrakhyani/Personal-Finance-Monitoring-System'
+  },
+  {
+    title: 'Automatic License Plate Detection and Recognition System',
+    description: 'Computer Vision / Machine Learning',
+    imageSrc: anpr,
+    link: 'https://github.com/Amit-Ramrakhyani/License-Plate-Recognition'
   }
 ];
 

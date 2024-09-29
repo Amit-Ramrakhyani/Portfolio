@@ -3,6 +3,7 @@ import multilingual from "/src/assets/images/MultilingualSystem.webp";
 import cspm from "/src/assets/images/CSPM.webp";
 import emotion from "/src/assets/images/Emotion.webp";
 import finance from "/src/assets/images/Finance.webp";
+import buildify from "/src/assets/images/Buildify2.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -18,13 +19,13 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://github.com/Amit-Ramrakhyani/License-Plate-Recognition"
-            img={anpr}
-            alt="Automatic License Plate Recognition System"
-            name="Automatic License Plate Recognition System"
-            type="Computer Vision • Machine Learning"
+            link="https://github.com/imabhisht/Devshouse-2024"
+            img={buildify}
+            alt="Buildify - No Code LLM App Builder"
+            name="Buildify - No Code LLM App Builder"
+            type="Generative AI • Language Model • Web Development"
             year="2024"
-            tools="Python • OpenCV • Tensorflow • Keras • YOLOv8 • Streamlit"
+            tools="Python • LangChain • LlamaIndex • MongoDB • Flask • React"
           />
         </div>
         {/* Project #2 */}
@@ -71,7 +72,17 @@ export default function Works({ forwardedRef }) {
             year="2024"
             tools="Python • React • Java • MongoDB"
           />
-         
+        </div>
+        <div className=" col-span-1 md:col-span-12">
+          <Projects
+            link="https://github.com/Amit-Ramrakhyani/License-Plate-Recognition"
+            img={anpr}
+            alt="Automatic License Plate Recognition System"
+            name="Automatic License Plate Recognition System"
+            type="Computer Vision • Machine Learning"
+            year="2024"
+            tools="Python • OpenCV • Tensorflow • Keras • YOLOv8 • Streamlit"
+          />
         </div>
       </div>
     </section>

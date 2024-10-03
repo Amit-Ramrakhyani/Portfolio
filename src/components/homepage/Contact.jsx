@@ -169,7 +169,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/in/amit-ramrakhyani-73b076214/"
+                href="https://www.linkedin.com/in/amitramrakhyani/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"

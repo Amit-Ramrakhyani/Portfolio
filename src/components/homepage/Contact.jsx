@@ -141,15 +141,30 @@ export default function Contact() {
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
-            <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
+            <div className="space-y-3 text-body-2 2xl:text-3xl">
               <a
                 href="mailto:amit.ramrakhyani1109@gmail.com"
-                className="group relative w-fit cursor-pointer"
+                className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>amit.ramrakhyani1109@gmail.com</span>
-                <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                <Icon icon="mdi:email" color="#666" />
+                <div className="relative">
+                  <span>amit.ramrakhyani1109@gmail.com</span>
+                  <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                </div>
+              </a>
+              <a
+                href="tel:+919328300751"
+                className="group flex items-center space-x-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon icon="mdi:phone" color="#666" />
+                <div className="relative">
+                  <span>+91 93283-00751</span>
+                  <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                </div>
               </a>
             </div>
           </div>
@@ -189,6 +204,20 @@ export default function Contact() {
                 <FaXTwitter color="#666" />
                 <div className="relative">
                   <span>X</span>
+                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                </div>
+              </a>
+              <a
+                href="https://leetcode.com/u/Amit-Ramrakhyani/"
+                className="group group flex w-fit items-center space-x-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+                  <path fill="#666" d="m21.469 23.907l-3.595 3.473c-.624.625-1.484.885-2.432.885s-1.807-.26-2.432-.885l-5.776-5.812c-.62-.625-.937-1.537-.937-2.485c0-.952.317-1.812.937-2.432l5.76-5.844c.62-.619 1.5-.859 2.448-.859s1.808.26 2.432.885l3.595 3.473c.687.688 1.823.663 2.536-.052c.708-.713.735-1.848.047-2.536l-3.473-3.511a6.8 6.8 0 0 0-3.261-1.787l3.287-3.333c.688-.687.667-1.823-.047-2.536s-1.849-.735-2.536-.052L4.553 13.968c-1.307 1.312-1.989 3.113-1.989 5.113c0 1.996.683 3.86 1.989 5.168l5.797 5.812c1.307 1.307 3.115 1.937 5.115 1.937c1.995 0 3.801-.683 5.109-1.989l3.479-3.521c.688-.683.661-1.817-.052-2.531s-1.849-.74-2.531-.052zm6.28-6.558H14.218c-.932 0-1.692.801-1.692 1.791c0 .991.76 1.797 1.692 1.797h13.531c.933 0 1.693-.807 1.693-1.797s-.76-1.791-1.693-1.791"/>
+                </svg>
+                <div className="relative">
+                  <span>LeetCode</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>

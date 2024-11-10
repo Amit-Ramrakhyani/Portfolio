@@ -207,7 +207,7 @@ export default function Contact() {
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
-              <a
+              {/* <a
                 href="https://leetcode.com/u/Amit-Ramrakhyani/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
@@ -220,7 +220,7 @@ export default function Contact() {
                   <span>LeetCode</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

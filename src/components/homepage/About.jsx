@@ -57,15 +57,16 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am a passionate Computer Science student specializing in data science, machine learning, and AI.
+              I’m a passionate Computer Science student specializing in Generative AI and intelligent agent-based systems development.
               <br></br>
               <br></br>
-              With hands-on experience in developing advanced machine learning applications, I specialize in crafting 
-              innovative solutions to complex problems, driving technological advancements, and fostering collaborative 
-              learning environments. 🚀
+              With hands-on experience in building RAG pipelines, agentic workflows, and production-grade AI applications, 
+              I focus on crafting innovative, scalable solutions that bridge cutting-edge research with real-world impact. 
+              My work spans designing robust AI architectures, integrating LLM frameworks, and deploying intelligent systems 
+              for diverse use cases. 🚀
               <br></br>
               <br></br>
-              When I am not training machines, I enjoy exploring about rocket technology & astronomy, creating art, and playing chess.
+              When I’m not building AI systems, I enjoy exploring rocket technology and astronomy, creating art, and playing chess.
             </p>
           </div>
         </div>

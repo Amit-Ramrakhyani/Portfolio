@@ -1,6 +1,6 @@
 // projectsData.js
 import ibgroup from '/src/assets/images/ib-group-desktop.webp';
-import multilingual from '/src/assets/images/MultilingualSystem.webp';
+import aithreatintelligence from '/src/assets/images/AIThreatIntelligence.webp';
 import cspm from '/src/assets/images/CSPM.webp';
 import emotion from '/src/assets/images/Emotion.webp';
 import finance from '/src/assets/images/Finance.webp';
@@ -15,10 +15,10 @@ const projectsData = [
     link: 'https://github.com/imabhisht/Devshouse-2024'
   },
   {
-    title: 'Multilingual Transcription & Translation System',
-    description: 'Natural Language Processing / Machine Learning',
-    imageSrc: multilingual,
-    link: 'https://github.com/Amit-Ramrakhyani/VerbalLinguists.git'
+    title: 'AI Threat Intelligence System',
+    description: 'Generative AI / Backend Development / Data Pipelines',
+    imageSrc: aithreatintelligence,
+    link: 'https://github.com/Amit-Ramrakhyani/'
   },
   {
     title: 'Cloud Security Posture Management',

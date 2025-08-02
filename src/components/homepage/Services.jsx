@@ -3,19 +3,21 @@ import Heading from "../ui/Heading";
 
 export default function Services() {
   const expertiseItems = [
-    "Data Science",
-    "Machine Learning",
-    "Deep Learning",
-    "Computer Vision",
     "Generative AI",
+    "AI Development",
+    "Agentic Systems",
+    "Backend Development",
+    "RAG Pipelines",
   ];
 
   const toolBoxItems = [
     "Python",
-    "OpenCV",
-    "PyTorch",
-    "TensorFlow",
-    "JavaScript"
+    "LangChain",
+    "FastAPI",
+    "TypeScript",
+    "React Native",
+    "MongoDB",
+    "Supabase",
   ];
 
   return (

@@ -196,7 +196,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://x.com/AmitR_0911"
+                href="https://x.com/amythnqx"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
